@@ -54,10 +54,6 @@ func (re *RequestExchange) ErrorMessage() string {
 	return re.errorMessage
 }
 
-func (re *RequestExchange) Fields() map[string]string {
-	return re.fields
-}
-
 func (re *RequestExchange) Field(field string) string {
 	return re.fields[field]
 }

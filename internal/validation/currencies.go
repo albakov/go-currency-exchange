@@ -41,10 +41,6 @@ func (cc *RequestCurrenciesAdd) ErrorMessage() string {
 	return cc.errorMessage
 }
 
-func (cc *RequestCurrenciesAdd) Fields() map[string]string {
-	return cc.fields
-}
-
 func (cc *RequestCurrenciesAdd) Field(field string) string {
 	return cc.fields[field]
 }

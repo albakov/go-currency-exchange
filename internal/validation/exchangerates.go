@@ -52,10 +52,6 @@ func (er *RequestExchangeRatesAdd) ErrorMessage() string {
 	return er.errorMessage
 }
 
-func (er *RequestExchangeRatesAdd) Fields() map[string]string {
-	return er.fields
-}
-
 func (er *RequestExchangeRatesAdd) Rate() float64 {
 	return er.rate
 }
