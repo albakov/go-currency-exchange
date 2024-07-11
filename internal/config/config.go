@@ -7,7 +7,7 @@ import (
 )
 
 type Config struct {
-	Host     string
+	Host     string `toml:"host"`
 	Port     int64  `toml:"port"`
 	PathToDB string `toml:"abs_path_to_database"`
 	CORS
